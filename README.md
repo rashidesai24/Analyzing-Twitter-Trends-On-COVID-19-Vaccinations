@@ -50,3 +50,13 @@ Sentiment analysis is a supervised machine learning problem with different types
 <h4> CorEx </h4>
 Correlation Explanation (CorEx) provides a flexible framework for learning topics that are maximally informative about a corpus of text. Through anchor words, we seeded and guided the topic model towards topics of substantive interest, which allowed us to interact with and refine topics in a way that is not possible with traditional topic models. Normalized Topic Correlation (NTC) represents the correlations within an individual document explained by a particular topic. 
 
+<h3> RESULTS </h3> 
+<li> Discovered 13 unique topics from the tweets across 12 weeks from Jan’21 to Mar’21 </li>
+<li>February had the lowest number of tweets (594,050) as compared to January (695,890) and March (819,487) about COVID vaccinations</li>
+<li>Positive sentiment contributed the most in overall sentiments of Twitter users (732,395), followed by neutral (579,493) and negative (525,866) sentiments</li>
+<li>People were discussing the most about topics like Vaccination status, Travel, Pandemic, Politics, Vaccine Approval</li>
+<li>Topics that remained underrepresented were People Against Vaccine, Political and COVID leaders, Who Got Vaccinated</li>
+
+<h3> CONCLUSION </h3>
+This study focused on demonstrating the conversations around COVID-19 vaccines on Twitter using a dataset created with tweets from individuals leveraging Machine Learning and Text Analytics approach. We performed exploratory data analysis using Unsupervised LDA to identify initial implicit topics. The dataset was further analysed for positive and negative sentiments. We further performed topic modeling for a deeper understanding of topics and their popularity across time. 
+
