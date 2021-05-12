@@ -3,17 +3,17 @@ A quantitative study comprising Twitter discussions and thematic analysis for CO
 
 <b> <h3> TABLE OF CONTENTS  </h3></b>
 
-<li> BACKGROUND </li> 
-<li> OBJECTIVE </li> 
-<li> TOOLS AND PACKAGES </li> 
-<li> DATA COLLECTION </li>  
-<li> DATA PRE-PROCESSING </li> 
-<li> DATA MODELING </li> 
-<li> DATA VISUALIZATION </li> 
-<li> RESULTS </li> 
-<li> CONCLUSION </li> 
-<li> REFERENCES </li> 
-<li> CHALLENGES AND FUTURE WORK </li> <br>
+<li> Background </li> 
+<li> Objective </li> 
+<li> Tools and Packages </li> 
+<li> Data Collection </li>  
+<li> Data Pre-Processing </li> 
+<li> Data Modeling </li> 
+<li> Data Visualization </li> 
+<li> Results </li> 
+<li> Conclusion </li> 
+<li> References </li> 
+<li> Challenges and Future Work </li> <br>
 
 
 <b> BACKGROUND </b> <br>
@@ -25,3 +25,16 @@ The COVID-19 pandemic has killed 3.2 million people and infected 150 million aro
 <li> To visualize the trends in sentiments of Twitter users and popularity associated with the discovered topics </li> 
 
 
+<b> DATA PRE-PROCESSING </b> <br>
+<b> Data Cleaning </b> <br>
+
+<li> Removed punctuation using remove_punct function with library re </li> 
+<li> Removed URLs and emojis in Tokenization using library re </li> 
+<li> Removed stopwords using nltk </li> 
+<li> Lemmatization of Tweets using nltk.WordNetLemmatizer() </li> <br> 
+
+<b> Individual vs Organizational Tweets </b> <br>
+<li> Created a Bag-of-Words with ~175 keywords to filter on Display Names </li> 
+<li> Removed 22% of the data </li> 
+<li> 2,109,427 tweets remain after removing organizational accounts </li> 
+<li> Assigned week numbers (1 to 12) to the dataset </li> 
