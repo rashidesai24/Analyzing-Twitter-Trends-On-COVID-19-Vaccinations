@@ -143,7 +143,7 @@ Correlation Explanation (CorEx) provides a flexible framework for learning topic
 
 <h3> DATA VISUALIZATION </h3> 
 
-<img src="https://github.com/rashidesai24/Analyzing-Twitter-Trends-On-COVID-19-Vaccinations/blob/main/Images/Unsupervised%20LDA.png" style="width:500px;height:600px;">
+<img src="https://github.com/rashidesai24/Analyzing-Twitter-Trends-On-COVID-19-Vaccinations/blob/main/Images/Unsupervised%20LDA.png" width="500" height="600">
 
 <img src="https://github.com/rashidesai24/Analyzing-Twitter-Trends-On-COVID-19-Vaccinations/blob/main/Images/Sentiment%20Analysis.png" style="width:500px;height:600px;"> 
 
