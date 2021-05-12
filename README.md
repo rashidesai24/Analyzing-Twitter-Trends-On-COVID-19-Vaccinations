@@ -40,11 +40,9 @@ The COVID-19 pandemic has killed 3.2 million people and infected 150 million aro
 <li>January - 884,011 tweets | February - 800,008 tweets | March - 1,127,854 tweets</li>
 <li>No null values identified</li>
 
-<h4> Data Coverage </h4>: With covid vaccine as the search terms, we believe that our set of keywords provides reasonable coverage and is representative of tweets communicating about COVID-19 vaccines
-<li> Individual tweets = 2.1 million </li>
-<li> Organizational tweets = 0.59 million </li>
-
-
+<h4> Data Coverage : </h4> <br> With covid vaccine as the search terms, we believe that our set of keywords provides reasonable coverage and is representative of tweets communicating about COVID-19 vaccines <br>
+Individual tweets = 2.1 million <br>
+Organizational tweets = 0.59 million <br>
 
 <hr>
 
