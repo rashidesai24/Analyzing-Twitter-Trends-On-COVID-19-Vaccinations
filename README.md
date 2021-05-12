@@ -5,15 +5,15 @@ A quantitative study comprising Twitter discussions and thematic analysis for CO
 
 * [Background](#background)
 * [Objective](#objective)
-* [Tools and Packages](#tools and packages)
-* [Data Collection](#data collection)
-* [Data Pre-Processing](#data pre-processing)
-* [Data Modeling](#data modeling)
-* [Data Visualization](#data visualization)
+* [Tools and Packages](#toolsandpackages)
+* [Data Collection](#datacollection)
+* [Data Pre-Processing](#datapre-processing)
+* [Data Modeling](#datamodeling)
+* [Data Visualization](#datavisualization)
 * [Results](#results)
 * [Conclusion](#conclusion)
 * [References](#references)
-* [Challenges and Future Work](#challenges and future work)
+* [Challenges and Future Work](#challengesandfuture work)
 
 <li> Background </li> 
 <li> Objective </li> 
