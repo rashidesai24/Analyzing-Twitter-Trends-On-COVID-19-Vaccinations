@@ -15,24 +15,13 @@ A quantitative study comprising Twitter discussions and thematic analysis for CO
 * [References](#references)
 * [Challenges and Future Work](#challengesandfuturework)
 
-<li> Background </li> 
-<li> Objective </li> 
-<li> Tools and Packages </li> 
-<li> Data Collection </li>  
-<li> Data Pre-Processing </li> 
-<li> Data Modeling </li> 
-<li> Data Visualization </li> 
-<li> Results </li> 
-<li> Conclusion </li> 
-<li> References </li> 
-<li> Challenges and Future Work </li>
-
 <hr>
 
 ## BACKGROUND 
 The COVID-19 pandemic has killed 3.2 million people and infected 150 million around the world as of April 30, 2021. Growing human rights concerns, vaccine movements, and skepticism towards the vaccines, its effects and efficacy have resulted in a multitude of conversations on social media and the process of vaccination becoming a complicated task. No major studies have been conducted to analyze people’s perception of COVID-19 vaccines on social media for the year 2021
 
 <hr>
+
 ## OBJECTIVE 
 <li> To extract information from tweets (between January and March, 2021) related to COVID vaccine where opinions are highly unstructured, heterogeneous and are either positive or negative, or neutral and identify driving factors for the change in sentiments </li> 
 <li> To explore conversations and abstract "topics" that occur in the collected tweets using topic modeling and text analytics backed by breakthrough events in the timeline </li> 
@@ -81,6 +70,7 @@ The COVID-19 pandemic has killed 3.2 million people and infected 150 million aro
 </table><br>
 
 <hr>
+
 ## DATA COLLECTION 
 
 <table style="width:100%">
