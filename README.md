@@ -13,7 +13,7 @@ A quantitative study comprising Twitter discussions and thematic analysis for CO
 <li> Results </li> 
 <li> Conclusion </li> 
 <li> References </li> 
-<li> Challenges and Future Work </li> <br>
+<li> Challenges and Future Work </li>
 
 <hr>
 
@@ -26,7 +26,28 @@ The COVID-19 pandemic has killed 3.2 million people and infected 150 million aro
 <li> To explore conversations and abstract "topics" that occur in the collected tweets using topic modeling and text analytics backed by breakthrough events in the timeline </li> 
 <li> To visualize the trends in sentiments of Twitter users and popularity associated with the discovered topics </li> 
 
+<hr> 
+
+<h3> DATA COLLECTION </h3> 
+
+<h4> Data Collection: Identifying COVID-19 Vaccines Content </h4>
+
+<li> Package used: snscrape</li>
+<li>Language: English</li>
+<li>Keywords: covid vaccine</li>
+<li>Timeframe: January 1, 2021 to March 31, 2021</li>
+<li>Number of tweets collected = 2.74 million</li>
+<li>January - 884,011 tweets | February - 800,008 tweets | March - 1,127,854 tweets</li>
+<li>No null values identified</li>
+
+<h4> Data Coverage </h4>: With covid vaccine as the search terms, we believe that our set of keywords provides reasonable coverage and is representative of tweets communicating about COVID-19 vaccines
+<li> Individual tweets = 2.1 million </li>
+<li> Organizational tweets = 0.59 million </li>
+
+
+
 <hr>
+
 <b> <h3> DATA PRE-PROCESSING </h3></b>
 
 <b> Data Cleaning </b> 
@@ -51,6 +72,10 @@ To understand the abstract topics hidden in the tweets unsupervised LDA techniqu
 Sentiment analysis is a supervised machine learning problem with different types of analysis. We considered a fine-grained sentiment classification with five levels of sentiments - overly positive, positive, neutral, negative, and overly negative. We used VADER (Valence Aware Dictionary for Sentiment Reasoning) as a rule-based model to examine the impact of COVID-19 vaccine on the attitude of Twitter users during the pandemic. 
 <h4> CorEx </h4>
 Correlation Explanation (CorEx) provides a flexible framework for learning topics that are maximally informative about a corpus of text. Through anchor words, we seeded and guided the topic model towards topics of substantive interest, which allowed us to interact with and refine topics in a way that is not possible with traditional topic models. Normalized Topic Correlation (NTC) represents the correlations within an individual document explained by a particular topic. 
+
+<hr>
+
+<h3> DATA VISUALIZATION </h3> 
 
 <hr>
 
