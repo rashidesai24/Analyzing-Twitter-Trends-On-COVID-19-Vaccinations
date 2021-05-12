@@ -5,7 +5,7 @@ A quantitative study comprising Twitter discussions and thematic analysis for CO
 
 * [Background](#background)
 * [Objective](#objective)
-* [Tools](#toolsandpackages)
+* [Tools](#tools)
 * [Data Collection](#datacollection)
 * [Data Pre-Processing](#datapre-processing)
 * [Data Modeling](#datamodeling)
