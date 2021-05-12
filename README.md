@@ -5,7 +5,7 @@ A quantitative study comprising Twitter discussions and thematic analysis for CO
 
 * [Background](#background)
 * [Objective](#objective)
-* [Tools and Packages](#toolsandpackages)
+* [Tools](#toolsandpackages)
 * [Data Collection](#datacollection)
 * [Data Pre-Processing](#datapre-processing)
 * [Data Modeling](#datamodeling)
@@ -29,7 +29,7 @@ The COVID-19 pandemic has killed 3.2 million people and infected 150 million aro
 
 <hr> 
 
-## TOOLS AND PACKAGES 
+## TOOLS
 
 <table style="width:100%">
   <tr>
