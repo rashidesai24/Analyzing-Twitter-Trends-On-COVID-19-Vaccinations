@@ -1,14 +1,19 @@
 # Analyzing-Twitter-Trends-On-COVID-19-Vaccinations
 A quantitative study comprising Twitter discussions and thematic analysis for COVID-19 vaccines
 
-<b> <h3> TABLE OF CONTENTS  </h3></b>
+## TABLE OF CONTENTS
 
 * [Background](#background)
 * [Objective](#objective)
-* [Algorithms](#algorithms)
-* [Data](#data)
-* [Implementation](#implementation)
+* [Tools and Packages](#tools and packages)
+* [Data Collection](#data collection)
+* [Data Pre-Processing](#data pre-processing)
+* [Data Modeling](#data modeling)
+* [Data Visualization](#data visualization)
 * [Results](#results)
+* [Conclusion](#conclusion)
+* [References](#references)
+* [Challenges and Future Work](#challenges and future work)
 
 <li> Background </li> 
 <li> Objective </li> 
