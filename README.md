@@ -39,3 +39,14 @@ The COVID-19 pandemic has killed 3.2 million people and infected 150 million aro
 <li> Removed 22% of the data </li> 
 <li> 2,109,427 tweets remain after removing organizational accounts </li> 
 <li> Assigned week numbers (1 to 12) to the dataset </li> 
+
+
+<b> <h3> DATA MODELING </b> </h3>
+
+<h4> Unsupervised LDA </h4>
+To understand the abstract topics hidden in the tweets unsupervised LDA technique was implemented using the library 'pyLDAvis'. We discovered 18 different topics considering the cluster size and no overlapping amongst the clusters
+<h4> Sentiment Analysis </h4>
+Sentiment analysis is a supervised machine learning problem with different types of analysis. We considered a fine-grained sentiment classification with five levels of sentiments - overly positive, positive, neutral, negative, and overly negative. We used VADER (Valence Aware Dictionary for Sentiment Reasoning) as a rule-based model to examine the impact of COVID-19 vaccine on the attitude of Twitter users during the pandemic. 
+<h4> CorEx </h4>
+Correlation Explanation (CorEx) provides a flexible framework for learning topics that are maximally informative about a corpus of text. Through anchor words, we seeded and guided the topic model towards topics of substantive interest, which allowed us to interact with and refine topics in a way that is not possible with traditional topic models. Normalized Topic Correlation (NTC) represents the correlations within an individual document explained by a particular topic. 
+
