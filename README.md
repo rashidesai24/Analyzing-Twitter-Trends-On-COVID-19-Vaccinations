@@ -60,3 +60,20 @@ Correlation Explanation (CorEx) provides a flexible framework for learning topic
 <h3> CONCLUSION </h3>
 This study focused on demonstrating the conversations around COVID-19 vaccines on Twitter using a dataset created with tweets from individuals leveraging Machine Learning and Text Analytics approach. We performed exploratory data analysis using Unsupervised LDA to identify initial implicit topics. The dataset was further analysed for positive and negative sentiments. We further performed topic modeling for a deeper understanding of topics and their popularity across time. 
 
+
+<h3> REFERENCES </h3>
+<li> Praveen SV, Ittamalla R, Deepak G. Analyzing the attitude of Indian citizens towards COVID-19 vaccine - A text analytics study. Diabetes Metab Syndr. 2021 Mar-Apr;15(2):595-599. doi: 10.1016/j.dsx.2021.02.031. Epub 2021 Feb 27. PMID: 33714134; PMCID: PMC7910132 </li>
+<li> DeVerna, M., Pierri, F., Truong, B., Bollenbacher, J., Axelrod, D., Loynes, N., . . . Bryden, J. (2021, April 20). CoVaxxy: A collection of ENGLISH-LANGUAGE Twitter posts About COVID-19 Vaccines </li>
+<li> K. Hazel Kwon, J. Hunter Priniski & Monica Chadha (2018): Disentangling User Samples: A Supervised Machine Learning Approach to Proxy-population Mismatch in Twitter Research, Communication Methods and Measures, DOI: 10.1080/19312458.2018.1430755 </li>
+<li> <li> Scraping Tweets with snscrape - https://betterprogramming.pub/how-to-scrape-tweets-with-snscrape-90124ed006af </li>
+<li> Vader Sentiment Analysis - 
+https://github.com/cjhutto/vaderSentiment </li>
+<li> Unsupervised LDA - 
+https://www.kaggle.com/keitazoumana/topic-modeling-with-lda </li>
+
+<h3> CHALLENGES AND FUTURE WORK </h3>
+<li> Challenges: Identifying package for tweet scraping and recognizing limitations on extraction, large execution times and runtime errors due to memory limitation for parts of data modeling </li>
+<h4> Future Work </h4>
+<li> Low impact insights from VADER Sentiment Analysis opens up a scope for deep dive into topics independently like People For/Against vaccines </li>
+<li> Explore conversations and sentiments in organizational tweets </li>
+<li> Number of active COVID cases, recoveries and deaths for the three months </li>
