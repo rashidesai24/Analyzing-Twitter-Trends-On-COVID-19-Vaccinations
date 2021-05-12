@@ -1,7 +1,7 @@
 # Analyzing-Twitter-Trends-On-COVID-19-Vaccinations
 A quantitative study comprising Twitter discussions and thematic analysis for COVID-19 vaccines
 
-<b> <h1> TABLE OF CONTENTS  </h1></b> <br>
+<b> <h3> TABLE OF CONTENTS  </h3></b>
 
 <li> BACKGROUND </li> 
 <li> OBJECTIVE </li> 
