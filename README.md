@@ -3,7 +3,14 @@ A quantitative study comprising Twitter discussions and thematic analysis for CO
 
 <b> <h3> TABLE OF CONTENTS  </h3></b>
 
-<li> Background (#Background)</li> 
+* [Background](#background)
+* [Objective](#objective)
+* [Algorithms](#algorithms)
+* [Data](#data)
+* [Implementation](#implementation)
+* [Results](#results)
+
+<li> Background </li> 
 <li> Objective </li> 
 <li> Tools and Packages </li> 
 <li> Data Collection </li>  
