@@ -30,6 +30,33 @@ The COVID-19 pandemic has killed 3.2 million people and infected 150 million aro
 
 <h3> DATA COLLECTION </h3> 
 
+<table style="width:100%">
+  <tr>
+    <th>Method</th>
+    <th>Notes</th> 
+  </tr>
+  <tr>
+    <td>Tweepy</td>
+    <td>3200 tweets; no historical data</td> 
+  </tr>
+  <tr>
+    <td>GetOldTweets3</td>
+    <td>Twitter has removed the endpoint the GetOldTweets3 uses </td> 
+  </tr>
+  <tr>
+    <td>TWINT</td>
+    <td>Twitter throws a more strict device + IP-ban after a certain amount of queries</td> 
+  </tr>
+  <tr>
+    <td><b>snscrape</b></td>
+    <td>Scrapped 100K tweets - 96,641 English tweets</td> 
+  </tr>
+  <tr>
+    <td>Octoparse (software)</td>
+    <td>Very time consuming with the event loop</td> 
+  </tr>
+</table>
+
 <h4> Data Collection: Identifying COVID-19 Vaccines Content </h4>
 
 <li> Package used: snscrape</li>
@@ -40,7 +67,7 @@ The COVID-19 pandemic has killed 3.2 million people and infected 150 million aro
 <li>January - 884,011 tweets | February - 800,008 tweets | March - 1,127,854 tweets</li>
 <li>No null values identified</li>
 
-<h4> Data Coverage : </h4> <br> With covid vaccine as the search terms, we believe that our set of keywords provides reasonable coverage and is representative of tweets communicating about COVID-19 vaccines <br>
+<h4> Data Coverage: </h4> With covid vaccine as the search terms, we believe that our set of keywords provides reasonable coverage and is representative of tweets communicating about COVID-19 vaccines <br>
 Individual tweets = 2.1 million <br>
 Organizational tweets = 0.59 million <br>
 
