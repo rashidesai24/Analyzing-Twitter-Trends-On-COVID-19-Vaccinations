@@ -21,13 +21,54 @@ A quantitative study comprising Twitter discussions and thematic analysis for CO
 The COVID-19 pandemic has killed 3.2 million people and infected 150 million around the world as of April 30, 2021. Growing human rights concerns, vaccine movements, and skepticism towards the vaccines, its effects and efficacy have resulted in a multitude of conversations on social media and the process of vaccination becoming a complicated task. No major studies have been conducted to analyze people’s perception of COVID-19 vaccines on social media for the year 2021
 
 <hr>
-<b> <h3> OBJECTIVE </h3> </b>
+ <h3> OBJECTIVE </h3>
 <li> To extract information from tweets (between January and March, 2021) related to COVID vaccine where opinions are highly unstructured, heterogeneous and are either positive or negative, or neutral and identify driving factors for the change in sentiments </li> 
 <li> To explore conversations and abstract "topics" that occur in the collected tweets using topic modeling and text analytics backed by breakthrough events in the timeline </li> 
 <li> To visualize the trends in sentiments of Twitter users and popularity associated with the discovered topics </li> 
 
 <hr> 
 
+<h3> TOOLS AND PACKAGES </h3><br>
+
+<table style="width:100%">
+  <tr>
+    <th>Task</th>
+    <th>Technique</th> 
+    <th>Tools/Packages Used</th>
+  </tr>
+  <tr>
+    <td>Data Collection</td>
+    <td>Tweet extraction from Twitter </td> 
+    <td>snscrape</td>
+  </tr>
+  <tr>
+    <td>Data Pre-processing</td>
+    <td>Removed punctuation, stopwords, URLs, emojis, lemmatization</td> 
+    <td>re, nltk,CountVectorizer, pandas, numpy</td>
+  </tr>
+  <tr>
+    <td>Data Modeling</td>
+    <td>Unsupervised LDA</td> 
+    <td>pyLDAvis.sklearn, LatentDirichletAllocation, sklearn </td>
+  </tr>
+  <tr>
+    <td>Text Analytics</td>
+    <td>Topic Modeling, Sentiment analysis</td> 
+    <td>vaderSentiment, corextopic</td>
+  </tr>
+  <tr>
+    <td>Data Visualization</td>
+    <td>Multi-attribute plots</td> 
+    <td>matplotlib, seaborn, Tableau, wordcloud</td>
+  </tr>
+  <tr>
+    <td>Environments & Platforms</td>
+    <td> </td> 
+    <td>MS Excel, Google Colab, Jupyter Notebook, Twitter</td>
+  </tr>
+</table><br>
+
+<hr>
 <h3> DATA COLLECTION </h3> 
 
 <table style="width:100%">
@@ -49,7 +90,7 @@ The COVID-19 pandemic has killed 3.2 million people and infected 150 million aro
   </tr>
   <tr>
     <td><b>snscrape</b></td>
-    <td>Scrapped 100K tweets - 96,641 English tweets</td> 
+    <td><b>Scrapped 100K tweets - 96,641 English tweets</b></td> 
   </tr>
   <tr>
     <td>Octoparse (software)</td>
