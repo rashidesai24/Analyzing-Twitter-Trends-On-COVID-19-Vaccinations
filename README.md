@@ -13,7 +13,7 @@ A quantitative study comprising Twitter discussions and thematic analysis for CO
 * [Results](#results)
 * [Conclusion](#conclusion)
 * [References](#references)
-* [Challenges and Future Work](#challengesandfuture work)
+* [Challenges and Future Work](#challengesandfuturework)
 
 <li> Background </li> 
 <li> Objective </li> 
@@ -29,18 +29,18 @@ A quantitative study comprising Twitter discussions and thematic analysis for CO
 
 <hr>
 
-<b> <h3> BACKGROUND </h3> </b> 
+## BACKGROUND 
 The COVID-19 pandemic has killed 3.2 million people and infected 150 million around the world as of April 30, 2021. Growing human rights concerns, vaccine movements, and skepticism towards the vaccines, its effects and efficacy have resulted in a multitude of conversations on social media and the process of vaccination becoming a complicated task. No major studies have been conducted to analyze people’s perception of COVID-19 vaccines on social media for the year 2021
 
 <hr>
- <h3> OBJECTIVE </h3>
+## OBJECTIVE 
 <li> To extract information from tweets (between January and March, 2021) related to COVID vaccine where opinions are highly unstructured, heterogeneous and are either positive or negative, or neutral and identify driving factors for the change in sentiments </li> 
 <li> To explore conversations and abstract "topics" that occur in the collected tweets using topic modeling and text analytics backed by breakthrough events in the timeline </li> 
 <li> To visualize the trends in sentiments of Twitter users and popularity associated with the discovered topics </li> 
 
 <hr> 
 
-<h3> TOOLS AND PACKAGES </h3><br>
+## TOOLS AND PACKAGES 
 
 <table style="width:100%">
   <tr>
@@ -81,7 +81,7 @@ The COVID-19 pandemic has killed 3.2 million people and infected 150 million aro
 </table><br>
 
 <hr>
-<h3> DATA COLLECTION </h3> 
+## DATA COLLECTION 
 
 <table style="width:100%">
   <tr>
@@ -126,7 +126,7 @@ Organizational tweets = 0.59 million <br>
 
 <hr>
 
-<b> <h3> DATA PRE-PROCESSING </h3></b>
+## DATA PRE-PROCESSING
 
 <b> Data Cleaning </b> 
 
@@ -142,7 +142,7 @@ Organizational tweets = 0.59 million <br>
 <li> Assigned week numbers (1 to 12) to the dataset </li> 
 
 <hr>
-<b> <h3> DATA MODELING </b> </h3>
+## DATA MODELING
 
 <h4> Unsupervised LDA </h4>
 To understand the abstract topics hidden in the tweets unsupervised LDA technique was implemented using the library 'pyLDAvis'. We discovered 18 different topics considering the cluster size and no overlapping amongst the clusters
@@ -153,7 +153,7 @@ Correlation Explanation (CorEx) provides a flexible framework for learning topic
 
 <hr>
 
-<h3> DATA VISUALIZATION </h3> 
+## DATA VISUALIZATION 
 
 <h4> Unsupervised LDA </h4>
 <img src="https://github.com/rashidesai24/Analyzing-Twitter-Trends-On-COVID-19-Vaccinations/blob/main/Images/Unsupervised%20LDA.png" style="width:500px;height:200px;">
@@ -176,7 +176,7 @@ Correlation Explanation (CorEx) provides a flexible framework for learning topic
 <hr>
 
 
-<h3> RESULTS </h3> 
+## RESULTS 
 <li> Discovered 13 unique topics from the tweets across 12 weeks from Jan’21 to Mar’21 </li>
 <li>February had the lowest number of tweets (594,050) as compared to January (695,890) and March (819,487) about COVID vaccinations</li>
 <li>Positive sentiment contributed the most in overall sentiments of Twitter users (732,395), followed by neutral (579,493) and negative (525,866) sentiments</li>
@@ -185,12 +185,12 @@ Correlation Explanation (CorEx) provides a flexible framework for learning topic
 
 <hr>
 
-<h3> CONCLUSION </h3>
+## CONCLUSION 
 This study focused on demonstrating the conversations around COVID-19 vaccines on Twitter using a dataset created with tweets from individuals leveraging Machine Learning and Text Analytics approach. We performed exploratory data analysis using Unsupervised LDA to identify initial implicit topics. The dataset was further analysed for positive and negative sentiments. We further performed topic modeling for a deeper understanding of topics and their popularity across time. 
 
 <hr>
 
-<h3> REFERENCES </h3>
+## REFERENCES 
 <li> Praveen SV, Ittamalla R, Deepak G. Analyzing the attitude of Indian citizens towards COVID-19 vaccine - A text analytics study. Diabetes Metab Syndr. 2021 Mar-Apr;15(2):595-599. doi: 10.1016/j.dsx.2021.02.031. Epub 2021 Feb 27. PMID: 33714134; PMCID: PMC7910132 </li>
 <li> DeVerna, M., Pierri, F., Truong, B., Bollenbacher, J., Axelrod, D., Loynes, N., . . . Bryden, J. (2021, April 20). CoVaxxy: A collection of ENGLISH-LANGUAGE Twitter posts About COVID-19 Vaccines </li>
 <li> K. Hazel Kwon, J. Hunter Priniski & Monica Chadha (2018): Disentangling User Samples: A Supervised Machine Learning Approach to Proxy-population Mismatch in Twitter Research, Communication Methods and Measures, DOI: 10.1080/19312458.2018.1430755 </li>
@@ -202,7 +202,7 @@ https://www.kaggle.com/keitazoumana/topic-modeling-with-lda </li>
 
 <hr>
 
-<h3> CHALLENGES AND FUTURE WORK </h3>
+## CHALLENGES AND FUTURE WORK 
 <b> Challenges </b>: Identifying package for tweet scraping and recognizing limitations on extraction, large execution times and runtime errors due to memory limitation for parts of data modeling </li>
 <h4> Future Work </h4>
 <li> Low impact insights from VADER Sentiment Analysis opens up a scope for deep dive into topics independently like People For/Against vaccines </li>
