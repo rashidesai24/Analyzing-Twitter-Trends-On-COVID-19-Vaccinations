@@ -198,7 +198,9 @@ https://www.kaggle.com/keitazoumana/topic-modeling-with-lda </li>
 <h4> Future Work </h4>
 <li> Low impact insights from VADER Sentiment Analysis opens up a scope for deep dive into topics independently like People For/Against vaccines </li>
 <li> Explore conversations and sentiments in organizational tweets </li>
-<li> Number of active COVID cases, recoveries and deaths for the three months </li>
+<li> Number of active COVID cases, recoveries and deaths for the three months </li> 
+
+<br><br>
 
 
 This project was made in collaboration with <a href="https://github.com/shahharsh2896">Harsh Shah</a>, do check out some of the amazing projects he's worked on.
