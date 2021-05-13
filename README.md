@@ -7,13 +7,13 @@ A quantitative study comprising Twitter discussions and thematic analysis for CO
 * [Objective](#objective)
 * [Tools and Packages](#tools)
 * [Data Collection](#data-collection)
-* [Data Pre-Processing](#datapre-processing)
-* [Data Modeling](#datamodeling)
-* [Data Visualization](#datavisualization)
+* [Data Pre-Processing](#data-preprocessing)
+* [Data Modeling](#data-modeling)
+* [Data Visualization](#data-visualization)
 * [Results](#results)
 * [Conclusion](#conclusion)
 * [References](#references)
-* [Challenges and Future Work](#challengesandfuturework)
+* [Challenges and Future Work](#challenges/future-work)
 
 <hr>
 
@@ -116,7 +116,7 @@ Organizational tweets = 0.59 million <br>
 
 <hr>
 
-## DATA PRE-PROCESSING
+## DATA-PREPROCESSING
 
 <b> Data Cleaning </b> 
 
@@ -132,7 +132,7 @@ Organizational tweets = 0.59 million <br>
 <li> Assigned week numbers (1 to 12) to the dataset </li> 
 
 <hr>
-## DATA MODELING
+## DATA-MODELING
 
 <h4> Unsupervised LDA </h4>
 To understand the abstract topics hidden in the tweets unsupervised LDA technique was implemented using the library 'pyLDAvis'. We discovered 18 different topics considering the cluster size and no overlapping amongst the clusters
@@ -143,7 +143,7 @@ Correlation Explanation (CorEx) provides a flexible framework for learning topic
 
 <hr>
 
-## DATA VISUALIZATION 
+## DATA-VISUALIZATION 
 
 <h4> Unsupervised LDA </h4>
 <img src="https://github.com/rashidesai24/Analyzing-Twitter-Trends-On-COVID-19-Vaccinations/blob/main/Images/Unsupervised%20LDA.png" style="width:500px;height:200px;">
@@ -192,7 +192,7 @@ https://www.kaggle.com/keitazoumana/topic-modeling-with-lda </li>
 
 <hr>
 
-## CHALLENGES AND FUTURE WORK 
+## CHALLENGES/FUTURE-WORK 
 <b> Challenges </b>: Identifying package for tweet scraping and recognizing limitations on extraction, large execution times and runtime errors due to memory limitation for parts of data modeling </li>
 <h4> Future Work </h4>
 <li> Low impact insights from VADER Sentiment Analysis opens up a scope for deep dive into topics independently like People For/Against vaccines </li>
