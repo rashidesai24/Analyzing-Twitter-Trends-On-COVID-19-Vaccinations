@@ -132,6 +132,7 @@ Organizational tweets = 0.59 million <br>
 <li> Assigned week numbers (1 to 12) to the dataset </li> 
 
 <hr>
+
 ## DATA-MODELING
 
 <h4> Unsupervised LDA </h4>
