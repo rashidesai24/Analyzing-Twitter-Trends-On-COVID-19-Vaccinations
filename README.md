@@ -13,7 +13,7 @@ A quantitative study comprising Twitter discussions and thematic analysis for CO
 * [Results](#results)
 * [Conclusion](#conclusion)
 * [References](#references)
-* [Challenges and Future Work](#challenges/future-work)
+* [Challenges and Future Work](#challenges-and-futurework)
 
 <hr>
 
@@ -193,7 +193,7 @@ https://www.kaggle.com/keitazoumana/topic-modeling-with-lda </li>
 
 <hr>
 
-## CHALLENGES/FUTURE-WORK 
+## CHALLENGES-AND-FUTUREWORK 
 <b> Challenges </b>: Identifying package for tweet scraping and recognizing limitations on extraction, large execution times and runtime errors due to memory limitation for parts of data modeling </li>
 <h4> Future Work </h4>
 <li> Low impact insights from VADER Sentiment Analysis opens up a scope for deep dive into topics independently like People For/Against vaccines </li>
